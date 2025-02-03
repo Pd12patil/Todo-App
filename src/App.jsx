@@ -48,7 +48,7 @@ function App() {
       </div>
       {/* <h1>Todo App</h1> */}
 
-      <div className="h-[70vh] md:h-[85vh] overflow-scroll pb-8">
+      <div className="h-[70vh] md:h-[85vh] overflow-scroll pb-16 md:pb-8">
         {todoList.map((taskItem, index) => {
           const {task, priority} = taskItem;
 
